@@ -1,20 +1,19 @@
-import React from 'react'
-import Logo from  "../assets/pizzaLogo.png";
+import React from 'react';
 import {Link} from 'react-router-dom';
+import "../styles/Navbar.css"
 
 function Navbar() {
+
   return (
     <div className = "Navbar">
       <div className= "leftSide">
-       <img src = {Logo} />
-      </div>
       <div className= "rightSide">
-        <Link to="/">Home</Link>
-        <Link to="/menu">Menue</Link>
-        <Link to="/about">About</Link>
-        <Link to="/contacts">Contacts</Link>
+      </div>
+        <Link to="/" className='HomeLink'>Home </Link>
+        <Link to="/menu" className='MenuLink'>Menu </Link>
       </div>
     </div>
+
   );
 }
 
