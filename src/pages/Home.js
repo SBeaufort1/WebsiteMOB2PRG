@@ -7,10 +7,10 @@ function Home() {
   return (
     <div className="home">
       <div className="headerContainer">
-        <h1> Merbia Bakery</h1>
-        
-        <p> Enjoy our endless sweets </p>
-        <img src="https://cdn.vectorstock.com/i/1000x1000/18/02/flat-bakery-vector-46761802.webp" className="center"/>
+        <h1> Merbah Bakery Goods</h1>
+        <img src="https://www.accessatlanta.com/resizer/Bah9O6VnTPGz3voRQp7U9MTSOw4=/1024x538/smart/cloudfront-us-east-1.images.arcpublishing.com/ajc/67CJDJRFP5EQ3HA6U4DKHZZHFA.jpg" className="center"/>
+        <p> Enjoy our Menu of mouth watering treats
+        </p>
         <Link to="/menu">
         </Link>
       </div>

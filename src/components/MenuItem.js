@@ -1,10 +1,11 @@
 import React from "react";
 import "../styles/Menu.css"
-
-function MenuItem({name, price }) {
+function MenuItem({image,name, price }) {
   return (
     <div className="menuItem">
-      <div> </div>
+      <div> 
+      <div style={{ backgroundImage: `url(${image})` }}> </div>
+      </div>
       <h1> {name} </h1>
       <p> ${price} </p>
     </div>

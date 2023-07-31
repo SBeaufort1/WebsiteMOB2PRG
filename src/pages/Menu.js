@@ -11,6 +11,7 @@ function Menu() {
           return (
             <MenuItem
               key={key}
+              image={menuItem.image}
               name={menuItem.name}
               price={menuItem.price}
             />

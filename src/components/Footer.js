@@ -4,7 +4,7 @@ import "../styles/Footer.css";
 function Footer() {
   return (
     <div className="footer">
-      <p>Have any questions? contact us at RecipeBook@Emailnotreal.com</p>
+      <p>Have any questions? contact us at Marbia@Emailnotreal.com</p>
     </div>
   );
 }
