@@ -5,10 +5,14 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  background-color: white;
 }
 .menu .menuTitle {
-  font-family: cursive;
-  font-size: 60px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 10;
+  font-size: 50px;
+  margin-left: 30px;
 }
 
 .menuList {
@@ -49,7 +53,7 @@
   margin-left: 20px;
 }
 
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 1200px) {
   .menuList {
     grid-template-columns: 1fr 1fr;
   }
@@ -59,12 +63,4 @@
   .menuList {
     grid-template-columns: 1fr;
   }
-}
-
-body{
-  background-image: url("https://cdn.vectorstock.com/i/1000x1000/52/41/light-brown-vintage-background-vector-22385241.webp");
-  background-repeat: no-repeat;
-  background-size: 2000px;
-  background-position: center;
-  background-attachment: fixed;
 }
