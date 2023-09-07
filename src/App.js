@@ -22,7 +22,7 @@ function App() {
       <Route path="recipes" element ={<Recipes/>}/>
       </Routes>
       <Footer/>
-    </Router>
+    </Router> 
     </div>
   );
 }
